@@ -1,9 +1,9 @@
 
 
-function EventsPage(props){
+function AllEventsPage(props){
     return (
-        <div>Events Page</div>
+        <div>All Events Page</div>
     );
 }
 
-export default EventsPage;
+export default AllEventsPage;

@@ -1,10 +1,13 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-
+import EventList from "../components/event-list";
+import { getFeaturedEvents } from "../dummy-data";
 
 function HomePage(props) {
+  const featuredEvents = getFeaturedEvents();
+
   return (
-    <div>Home Page</div>
+    <div>
+      <EventList items={featuredEvents}></EventList>
+    </div>
   );
 }
 
